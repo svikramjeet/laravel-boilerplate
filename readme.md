@@ -23,3 +23,5 @@ This boilerplate use CircleCI as continous integration and deploy laravel7 appli
 - Access token
 - campaignmonitor
 - Repositories
+- Newman (for postman test cases)
+
