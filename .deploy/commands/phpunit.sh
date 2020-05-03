@@ -1,5 +1,5 @@
 #!/bin/bash
-# Lumen boilerplate githook script
+# Laravel boilerplate githook script
 
 EXIT_CODE=0
 

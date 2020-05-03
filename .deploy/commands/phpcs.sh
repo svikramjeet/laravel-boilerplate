@@ -1,5 +1,5 @@
 #!/bin/bash
-# Lumen boilerplate githook script
+# Laravel boilerplate githook script
 
 # PHP CodeSniffer
 ./vendor/bin/phpcs --config-set colors 1 >> /dev/null
