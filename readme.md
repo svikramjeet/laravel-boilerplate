@@ -14,3 +14,12 @@ This boilerplate use CircleCI as continous integration and deploy laravel7 appli
 - CI: circleCI
 - Hosting: Heroku
 - Docker Image: svikramjeet/php7.3
+
+
+### Include config for
+- Newrelic (heroku)
+- Rollbar
+- CORS  
+- Access token
+- campaignmonitor
+- Repositories
