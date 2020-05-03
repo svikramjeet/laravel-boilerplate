@@ -18,6 +18,5 @@ yarn-error.log
 /nbproject
 .env.testing
 /.vscode
-docker-compose.yml
 .docker
 /.history
