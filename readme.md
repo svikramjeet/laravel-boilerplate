@@ -1,6 +1,6 @@
 ## About this repo
 
-This repository used CircleCI as continous integration and deploy laravel7 application on heroku
+This boilerplate use CircleCI as continous integration and deploy laravel7 application on heroku
 
 #### Basic Requirements
   * Git
