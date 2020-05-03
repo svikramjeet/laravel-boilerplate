@@ -1,19 +1,17 @@
 <?php
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Route;
+$router->group(['prefix' => 'v1', 'namespace' => '\App\Modules\Api\V1\Controllers', 'middleware'=>'cors'], function($router) {
 
-/*
-|--------------------------------------------------------------------------
-| API Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register API routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| is assigned the "api" middleware group. Enjoy building your API!
-|
-*/
+    // public api like
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+    $router->group(['middleware' => ['CheckAccessToken']], function ($router) {
+
+        // API require token
+
+        $router->group(['middleware' => ['IsAuthorized']], function ($router) {
+
+            // API require token and authorization 
+
+        });
+    });
 });
